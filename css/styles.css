@@ -29,7 +29,6 @@ button {
 
 .surveyinfo {
   font-size: 18px;
-  /*font-weight: bold;*/
 }
 
 .well {
@@ -37,14 +36,27 @@ button {
   color: white;
 }
 
-#ruby {
-  display: none;
-}
 
 #csharp {
   display: none;
 }
 
+#csharpwell {
+  background-color: #00D31D;
+}
+
 #java {
   display: none;
+}
+
+#javawell {
+  background-color: #36B4FF;
+}
+
+#ruby {
+  display: none;
+}
+
+#rubywell {
+  background-color: #7F00D2;
 }
