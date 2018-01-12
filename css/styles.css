@@ -4,4 +4,19 @@
 
 h1 {
   font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.surveyinfo {
+  font-size: 18px;
+  /*font-weight: bold;*/
+}
+
+.well {
+  background-color: #E4E5FF;
 }
