@@ -10,10 +10,15 @@ h2 {
 
 button {
   color: blue;
+  margin-bottom: 20px;
+}
+
+.panel {
+  background-color: #000000;
 }
 
 .jumbotron {
-  background-color: #CF0707;
+  background-color: #8F0000;
   color: white;
 }
 
