@@ -8,11 +8,14 @@ $(document).ready(function() {
 
     if(questionone <=3 && questiontwo <25 && questionthree === "no" || questionfour === "startup" && questionfive === "veganmayo") {
       $("#ruby").show();
-    } else if (questionone >9 && questiontwo >30 || questionthree === "yes" || questionfour === "enterprise" && questionfive === "mobile") {
+    }
+    else if (questionone >9 && questiontwo >30 || questionthree === "yes" || questionfour === "enterprise" && questionfive === "mobile") {
       $("#java").show();
-    } else if (questionone <10 && questiontwo >24 && questionthree === "no" || questionfour === "large" && questionfive === "microsoft") {
+    }
+    else if (questionone <10 && questiontwo >24 && questionthree === "no" || questionfour === "large" && questionfive === "microsoft") {
       $("#csharp").show();
-    } else if (questionthree === "blank" || questionfour === "blank" || questionfive ==="blank") {
+    }
+    else if (questionthree === "blank" || questionfour === "blank" || questionfive ==="blank") {
         alert("Please respond to all questions!");
     }
     event.preventDefault();
