@@ -6,17 +6,17 @@ $(document).ready(function() {
     var questionfour = $("#questionfour").val();
     var questionfive = $("#questionfive").val();
 
-    if(questionone <=3 && questiontwo <25 && questionthree === "no" || questionfour === "startup" && questionfive === "veganmayo") {
-      $("#ruby").show();
+    if(questionone <5 || questiontwo <26 && questionthree === "no" || questionfour === "startup" && questionfive === "veganmayo") {
+      $("#ruby").fadeIn();
     }
-    else if (questionone >9 && questiontwo >30 || questionthree === "yes" || questionfour === "enterprise" && questionfive === "mobile") {
-      $("#java").show();
+    else if (questionone >0 && questiontwo >25 || questionthree === "yes" || questionfour === "enterprise" && questionfive === "mobile") {
+      $("#java").fadeIn();
     }
-    else if (questionone <10 && questiontwo >24 && questionthree === "no" || questionfour === "large" && questionfive === "microsoft") {
-      $("#csharp").show();
+    else if (questionone >0 && questiontwo >25 && questionthree === "no" || questionfour === "large" && questionfive === "microsoft") {
+      $("#csharp").fadeIn();
     }
     else if (questionthree === "blank" || questionfour === "blank" || questionfive ==="blank") {
-        alert("Please respond to all questions!");
+      alert("Please respond to all questions!");
     }
     event.preventDefault();
   });
