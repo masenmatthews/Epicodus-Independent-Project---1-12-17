@@ -20,3 +20,15 @@ h2 {
 .well {
   background-color: #E4E5FF;
 }
+
+#ruby {
+  display: none;
+}
+
+#csharp {
+  display: none;
+}
+
+#java {
+  display: none;
+}
