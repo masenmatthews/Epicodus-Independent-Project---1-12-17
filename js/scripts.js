@@ -6,11 +6,11 @@ $(document).ready(function() {
     var questionfour = $("#questionfour").val();
     var questionfive = $("#questionfive").val();
 
-    if(questionone <3 && questiontwo <27 && questionthree === "no") {
+    if(questionone <5 || questiontwo <26 && questionthree === "no" || questionfour === "startup" && questionfive === "veganmayo") {
       $("#ruby").show();
-    } else if (questionone >5 && questiontwo >30 && questionthree === "yes") {
+    } else if (questionone >0 && questiontwo >25 || questionthree === "yes" || questionfour === "enterprise" && questionfive === "mobile") {
       $("#java").show();
-    } else if (questionone === 4 && questiontwo === 25 && questionthree === "no") {
+    } else if (questionone >0 && questiontwo >25 && questionthree === "no" || questionfour === "large" && questionfive === "microsoft") {
       $("#csharp").show();
     } else if (questionthree === "blank" || questionfour === "blank" || questionfive ==="blank") {
         alert("Please respond to all questions!");
