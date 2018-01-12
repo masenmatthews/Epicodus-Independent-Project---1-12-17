@@ -8,7 +8,7 @@ $(document).ready(function() {
 
     if(questionone <3 && questiontwo <30 && questionthree === "no" || questionone === "startup" || questionfive === "vegan") {
       $("#ruby").show();
-    } else if (questionone >5 && questiontwo >30 && questionthree === "yes") {
+    } else if (questionone >5 && questiontwo >30 && questionthree === "yes" || questionfour === "enterprise") || (questionfive === "mobile") {
       $("#java").show();
     } else if (questionone >= 4 && questiontwo >= 25 && questionthree === "no" || questionfour === "enterprise" || questionfive === "microsoft") {
       $("#csharp").show();
