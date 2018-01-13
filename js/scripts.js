@@ -6,13 +6,13 @@ $(document).ready(function() {
     var questionfour = $("#questionfour").val();
     var questionfive = $("#questionfive").val();
 
-    if(questionone <5 || questiontwo <26 && questionthree === "no" || questionfour === "startup" && questionfive === "veganmayo") {
+    if(questionone <=2 && questiontwo <30 && questionthree === "no" || questionfour === "startup" && questionfive === "veganmayo") {
       $("#ruby").fadeIn();
     }
-    else if (questionone >0 && questiontwo >25 || questionthree === "yes" || questionfour === "enterprise" && questionfive === "mobile") {
+    else if (questionone >=7 || questiontwo >40 || questionthree === "yes" || questionfour === "enterprise" && questionfive === "mobile") {
       $("#java").fadeIn();
     }
-    else if (questionone >0 && questiontwo >25 && questionthree === "no" || questionfour === "large" && questionfive === "microsoft") {
+    else if (questionone >2 || questiontwo <39 && questionthree === "no" || questionfour === "large" && questionfive === "microsoft") {
       $("#csharp").fadeIn();
     }
     else if (questionthree === "blank" || questionfour === "blank" || questionfive ==="blank") {
